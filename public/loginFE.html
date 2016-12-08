@@ -1,0 +1,259 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CURRENT | LOG-IN</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="favicon.ico">
+    
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Ruda:400,900,700' rel='stylesheet' type='text/css'>	
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="./css/font-awesome.css">
+	<!-- Bootstrap -->
+	<link href="./assets/css/bootstrap.css" rel="stylesheet">
+	<!-- Template Styles -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/colors/blue.css">    
+	<!-- Layer Slider -->
+	<link rel="stylesheet" href="./layerslider/css/layerslider.css" type="text/css">
+
+  
+	<!-- Support for HTML5 -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Enable media queries on older browsers -->
+	<!--[if lt IE 9]>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="../login.js"></script>
+    <script src="../main.js"></script>
+    <script src="../timer.js"></script>
+	<script src="./js/modernizr.js"></script>
+  </head>
+<body>
+     <div class="topbar clearfix">
+        <div class="container">
+            <div class="col-lg-12 text-right">
+                <div class="social_buttons">
+                    <a href="/login" data-toggle="tooltip" data-placement="bottom" title="Log In"><i class="fa fa-sign-in"></i></a>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end topbar -->
+
+    <header class="header">
+        <div class="container">
+            <div class="site-header clearfix">
+                <div class="col-lg-3 col-md-3 col-sm-12 title-area">
+                    <div class="site-title" id="title">
+                        <a href="index2.html" title="">
+                            <h4>C<span>URRENT</span></h4>   
+                        </a>
+                    </div>
+                </div>
+                <!-- title area -->
+                <div class="col-lg-9 col-md-12 col-sm-12">
+                   <div id="nav" class="right">
+                        <div class="container clearfix">
+                        <ul id="jetmenu" class="jetmenu blue">
+                            <li><a href="index2.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="research.html">Why Current Works</a>
+                                <ul class="dropdown">
+                                    <li><a href="research.html">Learn About Psychological Flow</a></li>
+                                    <li><a href="research.html#consciousnessAttention">Consciousness and Attention</a></li>
+                                    <li><a href="research.html#workLeisure">Impact of Work & Leisure</a></li>
+                                    <li><a href="research.html#timeOfDay">Impact of Time of Day</a></li>
+                                    <li><a href="research.html#timeSpentWorking">Impact of Time Spent Working</a></li>
+                                    <li><a href="research.html#takingBreaks">Impact of Taking Breaks</a></li>
+                                    <li><a href="research.html#eating">Impact Of Eating</a></li>
+                                    <li><a href="research.html#caffeine">Impact Of Caffeine</a></li>
+                                    <li><a href="research.html#sleep">Impact Of Sleep</a></li>
+                                    <li><a href="research.html#summation">Putting It All Together</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="order.html">Flow With Us</a>
+                                <ul class="dropdown">
+                                    <li><a href="order.html">Current Package</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>  
+                                </ul>
+                            </li>
+                            <li class="active"><a href="/login">Log In</a></li>
+                        </ul>
+                        </div>
+                    </div><!-- nav -->   
+                </div><!-- title area -->
+            </div><!-- site header -->
+        </div><!-- end container -->
+    </header><!-- end header -->
+    
+	<section class="post-wrapper-top">
+    	<div class="container">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <ul class="breadcrumb">
+                    <li><a href="index2.html">Home</a></li>
+                    <li>Login</li>
+                </ul>
+                <h2>LOGIN</h2>
+            </div>
+        </div>
+	</section><!-- end post-wrapper-top -->
+    
+    <section class="section1">
+    	<div class="container clearfix">
+			<div class="content col-lg-12 col-md-12 col-sm-12 clearfix">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+                	<h4 class="title">
+                    	<span>Welcome Back!</span>
+                    </h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s.</p>
+                    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+                	<h4 class="title">
+                    	<span>Login Form</span>
+                    </h4>
+
+<div class="container">
+        <div class="row">
+            <div id="login">
+            <!-- login div -->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password">
+                    <button id="signIn" class="btn btn-secondary">Login</button>
+                    <button id="signUp" class="btn btn-secondary">Register</button>
+                </div>
+            </div>
+
+            <div id="newUser" style="display: none">
+            <!-- div for registering a new user -->
+                <label>Name: </label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Name">
+               
+                <label>Password: </label>
+                <input type="password" class="form-control" id="newPassword" placeholder="Create A Password">
+            
+                <label>Email: </label>
+                <input type="text" id="newEmail" class="form-control" placeholder="Enter Email">
+               
+                <button id="addUser" class="btn btn-secondary">Register</button>
+            </div>
+        </div>
+    </div><!-- 
+                	<form id="loginform" method="post" name="loginform" action="">
+						<div id="login">
+                        <div class="form-group">
+							<div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+								<input type="password" class="form-control" id="password" placeholder="Password">
+							</div>
+						</div>
+						<div class="form-group">
+						<button type="submit" id="signIn" class="btn btn-secondary button">Login</button>
+						</div>
+                        </div>
+					</form> -->
+
+                </div><!-- end login -->
+  			</div><!-- end content -->
+        </div><!-- end container -->
+	</section><!-- end section -->
+
+
+
+
+
+
+
+   
+     <footer class="footer">
+        <div class="container">
+            <div class="widget col-lg-3 col-md-3 col-sm-12">
+            <h4 class="title">About us</h4>
+                <p>Current was founded by Charlotte Taylor, Adam Belliveau, Nate Farnsworth, Brendan O'Keefe. This site was born in four short days thanks to a <a data-toggle="tooltip" data-placement="bottom" title="(Note: we probably should have actually used the research we did and taken breaks, reduced caffeine input, slept more... but... #programming)" style="color: darkgrey">multitude of coffee</a> and all the <a href="/about.html#whiteboard">whiteboard space</a> that Code Craft has to offer.</p>
+                <a class="button small" href="./about.html">read more</a>
+            </div><!-- end widget -->
+            <div class="widget col-lg-3 col-md-3 col-sm-12">
+            <h4 class="title">References</h4>
+                <ul class="recent_posts">
+                    <li>
+                        <a href="./references.html">
+                        <img src="https://cdn2.iconfinder.com/data/icons/keyboard-2/24/asterisk-1-512.png" alt="" />References
+                        </a>
+                        <a class="readmore" href="./references.html">View Research References</a>
+                    </li>
+                </ul><!-- recent posts -->
+            </div><!-- end widget -->  
+            <div class="widget col-lg-3 col-md-3 col-sm-12">
+            <h4 class="title">Get In Touch</h4>
+                <ul class="contact_details">
+                    <li><i class="fa fa-envelope-o"></i> BANC@current.com</li>
+                    <li><i class="fa fa-phone-square"></i> +1 985 655 2500</li>
+                    <li><i class="fa fa-home"></i> 1600 Range St #100, Boulder, CO 80301</li>
+                </ul><!-- contact_details -->
+            </div><!-- end widget -->  
+             <div class="widget col-lg-3 col-md-3 col-sm-12">
+            <h4 class="title">Photo Stream</h4>
+                <ul class="flickr">
+                    <li><img alt="" src="http://telias.free.fr/textures_tex/water/water_p2.jpg"></li>
+                    <li><img alt="" src="https://pbs.twimg.com/profile_images/604416907496685568/cZsj_Dmz.jpg"></li>
+                    <li><img alt="" src="https://65.media.tumblr.com/avatar_327576522336_128.png"></li>
+                    <li><img alt="" src="https://static.greatbigcanvas.com/images/square/panoramic-images/water-swimming-pool-mexico,65017.jpg?max=128"></li>
+                    <li><img alt="" src="http://locustec.com/wp-content/uploads/2015/01/watersplash-256x256.jpg"></li>
+                    <li><img src="https://s-media-cache-ak0.pinimg.com/236x/5a/a1/4c/5aa14c4d8b720db5ce533fe4a23ad019.jpg" alt=""></li>
+                     <li><img alt="" src="https://static.greatbigcanvas.com/images/square/bigstock/abstract-water-with-bubbles,2278258.jpg?max=128"></li>
+                    <li><img alt="" src="https://s3.amazonaws.com/pure_charity/uploads/production/avatar/image/69055/large_water.jpg"></li>
+                   
+                    
+                </ul>
+            </div><!-- end widget -->  
+        </div><!-- end container -->
+
+        </div><!-- end container -->
+        
+        <div class="copyrights">
+            <div class="container">
+                <div class="col-lg-7 col-md-7 col-sm-12 columns text-right">
+                    <div class="footer-menu right">
+                        <ul class="menu">
+                            <li><a href="./index2.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="/login">Log In</a></li>
+                        </ul>
+                    </div>
+                </div><!-- end large-6 -->   
+            </div><!-- end container -->
+        </div><!-- end copyrights -->
+    </footer><!-- end footer -->
+    <div class="dmtop">Scroll to Top</div>
+
+      <!-- Main Scripts-->
+
+	<script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.unveilEffects.js"></script>	
+	<script src="./js/retina-1.1.0.js"></script>
+	<script src="./js/jquery.hoverex.min.js"></script>
+    <script src="./js/jetmenu.js"></script>	
+	<script src="./js/jquery.jigowatt.js"></script>
+	<script src="./js/custom.js"></script>
+	</body>
+</html>
